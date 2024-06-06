@@ -6,7 +6,7 @@ import Product from "../dropDown/Product";
 import UseCase from "../dropDown/useCase";
 
 export default function NavBar() {
-  const [phover, setPHover] = useState(false);
+  const [phover, setPHover] = useState(true);
   const [chover, setCHover] = useState(false);
 
   const handlePEnter = () => {
