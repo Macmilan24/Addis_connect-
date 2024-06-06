@@ -48,7 +48,7 @@ export default function NavBar() {
               onMouseEnter={handleCEnter}
               onMouseLeave={handleLeave}
             >
-              Use Case <FontAwesomeIcon icon={faCaretDown} />
+              Use Case <FontAwesomeIcon className=" pl-2" icon={faCaretDown} />
             </li>
             <li className=" hover:text-orange-400 transition h-full flex items-center cursor-pointer">
               About Us
