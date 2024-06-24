@@ -26,6 +26,10 @@ import {
 import NavBar from "./container/navBar/NavBar";
 import React from "react";
 import WelcomeSection from "./container/WelcomeSections/WelcomeSections";
+import ChallengesSection from "./container/WelcomeSections/ChallengesSection";
+import DiscussionsSection from "./container/WelcomeSections/DiscussionsSectios";
+import SuccessStoriesSection from "./container/WelcomeSections/SuccessStories";
+import Footer from "./container/footer/Footer";
 
 // Add all the icons to the library
 library.add(
@@ -57,6 +61,10 @@ export default function App() {
     <div className="">
       <NavBar />
       <WelcomeSection />
+      <ChallengesSection />
+      <DiscussionsSection />
+      <SuccessStoriesSection />
+      <Footer />
     </div>
   );
 }
