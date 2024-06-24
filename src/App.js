@@ -25,6 +25,7 @@ import {
 
 import NavBar from "./container/navBar/NavBar";
 import React from "react";
+import WelcomeSection from "./container/WelcomeSections/WelcomeSections";
 
 // Add all the icons to the library
 library.add(
@@ -55,7 +56,7 @@ export default function App() {
   return (
     <div className="">
       <NavBar />
-      <div className=" h-80 w-full bg-slate-500"> dsd</div>
+      <WelcomeSection />
     </div>
   );
 }
